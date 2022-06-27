@@ -1,0 +1,204 @@
+@import 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-section {
+    position: absolute;
+    width: 1440px;
+    height: 624px;
+    background-color: white;
+    padding: 64px 140px;
+}
+
+#main-section .top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.primary-heading {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 82px;
+    color: black;
+    padding-left: 18px;
+}
+
+.all-funds {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: black;
+    }
+
+    a{
+    text-decoration: none;
+    }
+
+#card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.cards {
+    height: 405px;
+    width: 360px;
+    left: 0%;
+    right: 0%;
+    top: 4px;
+    margin: 20px;
+    background: #FFFFFF;
+    border: 1px solid #BEBDBE;
+    border-top: 4px solid #FCC200;
+}
+
+.Equities {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+    text-decoration-color: #fcc200;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-heading {
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 24px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.funds {
+    padding-left: 24px;
+    position:absolute;
+    top: 165px;
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+    padding-left: 25px;
+}
+
+.funds2{
+    padding-left: 24px;
+    position:absolute;
+    top: 214px;
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+    padding-left: 25px;
+}
+
+.funds3{
+    padding-left: 25px;
+    position:absolute;
+    top: 263px;
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+}
+.values {
+    padding-left: 279.31px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    top: 165px;
+}
+
+.values2 {
+    padding-left: 223.2px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    top: 214px;
+}
+
+.values3 {
+    padding-left: 278.65px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    top: 263px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #E3E3E3;
+    width: 307px;
+    justify-self: center;
+    margin-left: 25px;
+    top: 200px;
+    position: absolute;
+}
+
+.divider2 {
+    height: 1px;
+    background-color: #E3E3E3;
+    width: 307px;
+    justify-self: center;
+    margin-left: 25px;
+    top: 249px;
+    position: absolute;
+}
+.divider3 {
+    height: 1px;
+    background-color: #E3E3E3;
+    width: 307px;
+    justify-self: center;
+    margin-left: 25px;
+    top: 298px;
+    position: absolute;
+}
+
+button {
+    border: none;
+    position: absolute;
+    width: 148px;
+    height: 40px;
+    margin-left: 25px;
+    top: 331px;
+    background: #FCC200;
+}
+
+.btn-text {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 15px;
+    top: 10px;
+    bottom: 10px;
+    right: 47px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.btn-icon {
+    position: absolute;
+    left: 76%;
+    /* right: 56.64%; */
+    top: 15px;
+    bottom: 12.47%;
+}
